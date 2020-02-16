@@ -13,7 +13,6 @@ There's a demo youtube link <a href="https://www.youtube.com/watch?v=Mv7iC2ppCnU
 
 ### Finally, run the below command
 <div><code>$ flask run</code><div>
-
-
+  </br></br>
 <div>There's only two different routes except the homepage. they are /all and /delete
 Try to explore what the routes return.</div>
