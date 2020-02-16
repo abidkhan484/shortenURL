@@ -5,8 +5,8 @@ There's a demo youtube link <a href="https://www.youtube.com/watch?v=Mv7iC2ppCnU
 
 ### Prerequisites
 <ul>
-  <li>Python3<li>
-  <li>Pip3<li>
+  <li>Python3</li>
+  <li>Pip3</li>
 </ul>
 
 ### Create a Virtual Enviornment with Python3
