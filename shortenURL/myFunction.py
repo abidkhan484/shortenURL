@@ -35,8 +35,8 @@ def decode_url(url):
         url_index += ((charecter_length ** i) * url_characters.find(url_list[i]))
 
     idx = url_index - random_number
-    totalURL = get_length_of_DB()
-    if idx > totalURL or idx < 1:
+    # totalURL = get_length_of_DB()
+    if idx < 1:
         return -1
 
     return idx

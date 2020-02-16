@@ -55,7 +55,7 @@ def show_entries():
 	entries = cur.fetchall()
 	return render_template('show_entries.html', entries=entries)
 
-'''
+
 # please complete with proper logic
 
 @bp.route('/delete')
@@ -65,4 +65,4 @@ def delete_database():
     db.commit()
     mess = "You have deleted all the records"
     return render_template('delete_entries.html', message=mess)
-'''
+
