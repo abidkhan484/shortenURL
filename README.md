@@ -8,8 +8,8 @@ $ python3 -m venv venv
 $ pip3 install -r requirements.txt
 
 ### Set these Environment Variables
-$ export FLASK_APP=shortenURL
-$ export FLASK_ENV=development
+<code>$ export FLASK_APP=shortenURL</code>
+<code>$ export FLASK_ENV=development</code>
 
 ### Finally, run the below command
 $ flask run
