@@ -14,5 +14,6 @@ There's a demo youtube link <a href="https://www.youtube.com/watch?v=Mv7iC2ppCnU
 ### Finally, run the below command
 <div><code>$ flask run</code><div>
 
-<div>There's only two different routes in the project. they are /all and /delete
+
+<div>There's only two different routes except the homepage. they are /all and /delete
 Try to explore what the routes return.</div>
