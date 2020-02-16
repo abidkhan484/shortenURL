@@ -1,6 +1,8 @@
 # shortenURL
 There's a demo youtube link <a href="https://www.youtube.com/watch?v=Mv7iC2ppCnU">here</a>.
 
+<div>After pulling from the repository. Go to the root directory</div>
+
 ### Create a Virtual Enviornment with Python3
 <div><code>$ python3 -m venv venv</code></div>
 
