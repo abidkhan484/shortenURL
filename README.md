@@ -1,7 +1,7 @@
 # shortenURL
 There's a demo youtube link <a href="https://www.youtube.com/watch?v=Mv7iC2ppCnU">here</a>.
 
-## Create a Virtual Enviornment with Python3
+### Create a Virtual Enviornment with Python3
 $ python3 -m venv venv
 
 # Install the requirements
