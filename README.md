@@ -7,10 +7,12 @@ There's a demo youtube link <a href="https://www.youtube.com/watch?v=Mv7iC2ppCnU
 <ul>
   <li>Python3</li>
   <li>Pip3</li>
+  <li>python3-flask</li>
 </ul>
 
-### Create a Virtual Enviornment with Python3
+### Create and activate Virtual Enviornment with Python3
 <div><code>$ python3 -m venv venv</code></div>
+<div><code>$ source venv/bin/activate</code></div>
 
 ### Install the requirements
 <div><code>$ pip3 install -r requirements.txt</code></div>
