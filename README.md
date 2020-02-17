@@ -3,12 +3,12 @@ There's a demo youtube link <a href="https://www.youtube.com/watch?v=Mv7iC2ppCnU
 
 Tested in Linux based OS. After pulling from the repository. Go to the project root directory.
 
-## Run the app using command line
+## 1. Run the app with virtual environment using command line
 ### Prerequisites
 <ul>
   <li>Python3</li>
   <li>Pip3</li>
-  <li>python3-flask</li>
+  <li>Python3-flask</li>
 </ul>
 
 ### Create and activate Virtual Enviornment with Python3
@@ -24,12 +24,9 @@ $ source venv/bin/activate
 $ pip3 install -r requirements.txt
 ```
 
-### Set these Environment Variables
+### Set the Environment Variables
 ```
 $ export FLASK_APP=shortenURL
-```
-```
-$ export FLASK_ENV=development
 ```
 
 ### Finally, run the below command
@@ -37,7 +34,7 @@ $ export FLASK_ENV=development
 $ flask run
 ```
 
-## Dockerize the App
+## 2. Run the app with Docker
 ### Prerequisites
 <ul>
   <li>Docker</li>
@@ -52,5 +49,12 @@ Run the container with the run command and open the port for the web server
 ```
 docker run -p 5000:5000 <container-name>
 ```
-There's only two different routes except the homepage. they are /all and /delete
+## 3. Run the app with Python Interpreter or a three liner script
+```
+>>> import shortenURL
+>>> app = shortenURL.create_app()
+>>> app.run()
+```
+
+There's only two different routes except the homepage. They are ```/all``` and ```/delete```
 Try to explore what the routes return.
