@@ -3,7 +3,7 @@ There's a demo youtube link <a href="https://www.youtube.com/watch?v=Mv7iC2ppCnU
 
 Tested in Linux based OS. After pulling from the repository. Go to the project root directory.
 
-## Run the app using command line
+## 1. Run the app with virtual environment using command line
 ### Prerequisites
 <ul>
   <li>Python3</li>
@@ -37,7 +37,7 @@ $ export FLASK_ENV=development
 $ flask run
 ```
 
-## Dockerize the App
+## 2. Run the app with Docker
 ### Prerequisites
 <ul>
   <li>Docker</li>
@@ -52,5 +52,12 @@ Run the container with the run command and open the port for the web server
 ```
 docker run -p 5000:5000 <container-name>
 ```
+## 3. Run the app with Python Interpreter or a three liner script
+```
+>>> import shortenURL
+>>> app = shortenURL.create_app()
+>>> app.run()
+```
+
 There's only two different routes except the homepage. they are /all and /delete
 Try to explore what the routes return.
