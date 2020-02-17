@@ -55,6 +55,8 @@ docker run -p 5000:5000 <container-name>
 >>> app = shortenURL.create_app()
 >>> app.run()
 ```
+### See the web Server
+###### Visit localhost:5000 in your web browser to see the webapp in action!
 
 There's only two different routes except the homepage. They are ```/all``` and ```/delete```
 Try to explore what the routes return.
