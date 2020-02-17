@@ -24,7 +24,7 @@ $ source venv/bin/activate
 $ pip3 install -r requirements.txt
 ```
 
-### Set these Environment Variables
+### Set the Environment Variables
 ```
 $ export FLASK_APP=shortenURL
 ```
