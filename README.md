@@ -1,8 +1,9 @@
 # shortenURL
 There's a demo youtube link <a href="https://www.youtube.com/watch?v=Mv7iC2ppCnU">here</a>.
 
-<div>Tested in Linux based OS. After pulling from the repository. Go to the project root directory.</div>
+Tested in Linux based OS. After pulling from the repository. Go to the project root directory.
 
+## Run the app using command line
 ### Prerequisites
 <ul>
   <li>Python3</li>
@@ -11,18 +12,45 @@ There's a demo youtube link <a href="https://www.youtube.com/watch?v=Mv7iC2ppCnU
 </ul>
 
 ### Create and activate Virtual Enviornment with Python3
-<div><code>$ python3 -m venv venv</code></div>
-<div><code>$ source venv/bin/activate</code></div>
+```
+$ python3 -m venv venv
+```
+```
+$ source venv/bin/activate
+```
 
 ### Install the requirements
-<div><code>$ pip3 install -r requirements.txt</code></div>
+```
+$ pip3 install -r requirements.txt
+```
 
 ### Set these Environment Variables
-<div><code>$ export FLASK_APP=shortenURL</code></div>
-<div><code>$ export FLASK_ENV=development</code></div>
+```
+$ export FLASK_APP=shortenURL
+```
+```
+$ export FLASK_ENV=development
+```
 
 ### Finally, run the below command
-<div><code>$ flask run</code><div>
-  </br></br>
-<div>There's only two different routes except the homepage. they are /all and /delete
-Try to explore what the routes return.</div>
+```
+$ flask run
+```
+
+## Dockerize the App
+### Prerequisites
+<ul>
+  <li>Docker</li>
+</ul>
+
+### Build and run the Dockerfile
+Build the Dockerfile with the build command
+```
+docker build -t <container-name> .
+```
+Run the container with the run command and open the port for the web server
+```
+docker run -p 5000:5000 <container-name>
+```
+There's only two different routes except the homepage. they are /all and /delete
+Try to explore what the routes return.
