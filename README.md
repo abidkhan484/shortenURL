@@ -8,7 +8,7 @@ Tested in Linux based OS. After pulling from the repository. Go to the project r
 <ul>
   <li>Python3</li>
   <li>Pip3</li>
-  <li>python3-flask</li>
+  <li>Python3-flask</li>
 </ul>
 
 ### Create and activate Virtual Enviornment with Python3
@@ -56,5 +56,5 @@ docker run -p 5000:5000 <container-name>
 >>> app.run()
 ```
 
-There's only two different routes except the homepage. they are /all and /delete
+There's only two different routes except the homepage. They are ```/all``` and ```/delete```
 Try to explore what the routes return.
