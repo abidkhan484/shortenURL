@@ -28,9 +28,6 @@ $ pip3 install -r requirements.txt
 ```
 $ export FLASK_APP=shortenURL
 ```
-```
-$ export FLASK_ENV=development
-```
 
 ### Finally, run the below command
 ```
