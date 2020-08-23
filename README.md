@@ -1,7 +1,7 @@
 # shortenURL
 There's a demo youtube link <a href="https://www.youtube.com/watch?v=Mv7iC2ppCnU">here</a>.
 
-Tested in Linux based OS. After pulling from the repository. Go to the project root directory.
+Tested in Linux based OS. After cloning from the repository. Go to the project root directory.
 
 ## 1. Run the app with virtual environment using command line
 ##### Prerequisites
@@ -13,25 +13,25 @@ Tested in Linux based OS. After pulling from the repository. Go to the project r
 
 ##### Create and activate Virtual Enviornment with Python3
 ```
-$ python3 -m venv venv
+python3 -m venv venv
 ```
 ```
-$ source venv/bin/activate
+source venv/bin/activate
 ```
 
 ##### Install the requirements
 ```
-$ pip3 install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ##### Set the Environment Variables
 ```
-$ export FLASK_APP=shortenURL
+export FLASK_APP=shortenURL
 ```
 
 ##### Finally, run the below command
 ```
-$ flask run
+flask run
 ```
 
 ## 2. Run the app with Docker
